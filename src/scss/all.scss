@@ -1,8 +1,8 @@
+@import 'src/scss/variables.scss';
 @import 'node_modules/bulma/bulma.sass';
+@import 'src/scss/spacing.scss';
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #d64000;
+$kaldi-red: black;
 $kaldi-red-invert: #fff;
 
 $primary: $kaldi-red;
@@ -159,3 +159,5 @@ $menu-label-color: $white-ter;
     margin: 0 0 1em;
   }
 }
+
+@import 'src/scss/custom.scss';
